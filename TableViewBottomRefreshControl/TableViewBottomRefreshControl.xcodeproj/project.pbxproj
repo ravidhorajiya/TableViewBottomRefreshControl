@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FC419F41F2B4E7100A5A595 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC419F31F2B4E7100A5A595 /* main.m */; };
+		9FC419F71F2B4E7100A5A595 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC419F61F2B4E7100A5A595 /* AppDelegate.m */; };
+		9FC419FA1F2B4E7100A5A595 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC419F91F2B4E7100A5A595 /* ViewController.m */; };
+		9FC419FD1F2B4E7100A5A595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC419FB1F2B4E7100A5A595 /* Main.storyboard */; };
+		9FC419FF1F2B4E7100A5A595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC419FE1F2B4E7100A5A595 /* Assets.xcassets */; };
+		9FC41A021F2B4E7100A5A595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC41A001F2B4E7100A5A595 /* LaunchScreen.storyboard */; };
+		9FC41A0D1F2B4E7100A5A595 /* TableViewBottomRefreshControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC41A0C1F2B4E7100A5A595 /* TableViewBottomRefreshControlTests.m */; };
+		9FC41A181F2B4E7100A5A595 /* TableViewBottomRefreshControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC41A171F2B4E7100A5A595 /* TableViewBottomRefreshControlUITests.m */; };
+		9FC41A2B1F2B4F5600A5A595 /* UIScrollView+BottomRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC41A2A1F2B4F5600A5A595 /* UIScrollView+BottomRefreshControl.m */; };
+		9FC41A2E1F2B512A00A5A595 /* TempTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC41A2D1F2B512A00A5A595 /* TempTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FC41A091F2B4E7100A5A595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FC419E71F2B4E7100A5A595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FC419EE1F2B4E7100A5A595;
+			remoteInfo = TableViewBottomRefreshControl;
+		};
+		9FC41A141F2B4E7100A5A595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FC419E71F2B4E7100A5A595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FC419EE1F2B4E7100A5A595;
+			remoteInfo = TableViewBottomRefreshControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FC419EF1F2B4E7100A5A595 /* TableViewBottomRefreshControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewBottomRefreshControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC419F31F2B4E7100A5A595 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FC419F51F2B4E7100A5A595 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9FC419F61F2B4E7100A5A595 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9FC419F81F2B4E7100A5A595 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9FC419F91F2B4E7100A5A595 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9FC419FC1F2B4E7100A5A595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FC419FE1F2B4E7100A5A595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FC41A011F2B4E7100A5A595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FC41A031F2B4E7100A5A595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC41A081F2B4E7100A5A595 /* TableViewBottomRefreshControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewBottomRefreshControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC41A0C1F2B4E7100A5A595 /* TableViewBottomRefreshControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewBottomRefreshControlTests.m; sourceTree = "<group>"; };
+		9FC41A0E1F2B4E7100A5A595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC41A131F2B4E7100A5A595 /* TableViewBottomRefreshControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewBottomRefreshControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC41A171F2B4E7100A5A595 /* TableViewBottomRefreshControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewBottomRefreshControlUITests.m; sourceTree = "<group>"; };
+		9FC41A191F2B4E7100A5A595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC41A291F2B4F5600A5A595 /* UIScrollView+BottomRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+BottomRefreshControl.h"; sourceTree = "<group>"; };
+		9FC41A2A1F2B4F5600A5A595 /* UIScrollView+BottomRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+BottomRefreshControl.m"; sourceTree = "<group>"; };
+		9FC41A2C1F2B512A00A5A595 /* TempTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempTableViewCell.h; sourceTree = "<group>"; };
+		9FC41A2D1F2B512A00A5A595 /* TempTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FC419EC1F2B4E7100A5A595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC41A051F2B4E7100A5A595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC41A101F2B4E7100A5A595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FC419E61F2B4E7100A5A595 = {
+			isa = PBXGroup;
+			children = (
+				9FC419F11F2B4E7100A5A595 /* TableViewBottomRefreshControl */,
+				9FC41A0B1F2B4E7100A5A595 /* TableViewBottomRefreshControlTests */,
+				9FC41A161F2B4E7100A5A595 /* TableViewBottomRefreshControlUITests */,
+				9FC419F01F2B4E7100A5A595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FC419F01F2B4E7100A5A595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FC419EF1F2B4E7100A5A595 /* TableViewBottomRefreshControl.app */,
+				9FC41A081F2B4E7100A5A595 /* TableViewBottomRefreshControlTests.xctest */,
+				9FC41A131F2B4E7100A5A595 /* TableViewBottomRefreshControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FC419F11F2B4E7100A5A595 /* TableViewBottomRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				9FC41A251F2B4F0300A5A595 /* UIScrollView+BottomRefreshControl */,
+				9FC419F51F2B4E7100A5A595 /* AppDelegate.h */,
+				9FC419F61F2B4E7100A5A595 /* AppDelegate.m */,
+				9FC419F81F2B4E7100A5A595 /* ViewController.h */,
+				9FC419F91F2B4E7100A5A595 /* ViewController.m */,
+				9FC41A2C1F2B512A00A5A595 /* TempTableViewCell.h */,
+				9FC41A2D1F2B512A00A5A595 /* TempTableViewCell.m */,
+				9FC419FB1F2B4E7100A5A595 /* Main.storyboard */,
+				9FC419FE1F2B4E7100A5A595 /* Assets.xcassets */,
+				9FC41A001F2B4E7100A5A595 /* LaunchScreen.storyboard */,
+				9FC41A031F2B4E7100A5A595 /* Info.plist */,
+				9FC419F21F2B4E7100A5A595 /* Supporting Files */,
+			);
+			path = TableViewBottomRefreshControl;
+			sourceTree = "<group>";
+		};
+		9FC419F21F2B4E7100A5A595 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FC419F31F2B4E7100A5A595 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FC41A0B1F2B4E7100A5A595 /* TableViewBottomRefreshControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FC41A0C1F2B4E7100A5A595 /* TableViewBottomRefreshControlTests.m */,
+				9FC41A0E1F2B4E7100A5A595 /* Info.plist */,
+			);
+			path = TableViewBottomRefreshControlTests;
+			sourceTree = "<group>";
+		};
+		9FC41A161F2B4E7100A5A595 /* TableViewBottomRefreshControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FC41A171F2B4E7100A5A595 /* TableViewBottomRefreshControlUITests.m */,
+				9FC41A191F2B4E7100A5A595 /* Info.plist */,
+			);
+			path = TableViewBottomRefreshControlUITests;
+			sourceTree = "<group>";
+		};
+		9FC41A251F2B4F0300A5A595 /* UIScrollView+BottomRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				9FC41A291F2B4F5600A5A595 /* UIScrollView+BottomRefreshControl.h */,
+				9FC41A2A1F2B4F5600A5A595 /* UIScrollView+BottomRefreshControl.m */,
+			);
+			path = "UIScrollView+BottomRefreshControl";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FC419EE1F2B4E7100A5A595 /* TableViewBottomRefreshControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC41A1C1F2B4E7100A5A595 /* Build configuration list for PBXNativeTarget "TableViewBottomRefreshControl" */;
+			buildPhases = (
+				9FC419EB1F2B4E7100A5A595 /* Sources */,
+				9FC419EC1F2B4E7100A5A595 /* Frameworks */,
+				9FC419ED1F2B4E7100A5A595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewBottomRefreshControl;
+			productName = TableViewBottomRefreshControl;
+			productReference = 9FC419EF1F2B4E7100A5A595 /* TableViewBottomRefreshControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FC41A071F2B4E7100A5A595 /* TableViewBottomRefreshControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC41A1F1F2B4E7100A5A595 /* Build configuration list for PBXNativeTarget "TableViewBottomRefreshControlTests" */;
+			buildPhases = (
+				9FC41A041F2B4E7100A5A595 /* Sources */,
+				9FC41A051F2B4E7100A5A595 /* Frameworks */,
+				9FC41A061F2B4E7100A5A595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FC41A0A1F2B4E7100A5A595 /* PBXTargetDependency */,
+			);
+			name = TableViewBottomRefreshControlTests;
+			productName = TableViewBottomRefreshControlTests;
+			productReference = 9FC41A081F2B4E7100A5A595 /* TableViewBottomRefreshControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FC41A121F2B4E7100A5A595 /* TableViewBottomRefreshControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC41A221F2B4E7100A5A595 /* Build configuration list for PBXNativeTarget "TableViewBottomRefreshControlUITests" */;
+			buildPhases = (
+				9FC41A0F1F2B4E7100A5A595 /* Sources */,
+				9FC41A101F2B4E7100A5A595 /* Frameworks */,
+				9FC41A111F2B4E7100A5A595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FC41A151F2B4E7100A5A595 /* PBXTargetDependency */,
+			);
+			name = TableViewBottomRefreshControlUITests;
+			productName = TableViewBottomRefreshControlUITests;
+			productReference = 9FC41A131F2B4E7100A5A595 /* TableViewBottomRefreshControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FC419E71F2B4E7100A5A595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Ravi;
+				TargetAttributes = {
+					9FC419EE1F2B4E7100A5A595 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 228777C638;
+						ProvisioningStyle = Automatic;
+					};
+					9FC41A071F2B4E7100A5A595 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 228777C638;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FC419EE1F2B4E7100A5A595;
+					};
+					9FC41A121F2B4E7100A5A595 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 228777C638;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FC419EE1F2B4E7100A5A595;
+					};
+				};
+			};
+			buildConfigurationList = 9FC419EA1F2B4E7100A5A595 /* Build configuration list for PBXProject "TableViewBottomRefreshControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FC419E61F2B4E7100A5A595;
+			productRefGroup = 9FC419F01F2B4E7100A5A595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FC419EE1F2B4E7100A5A595 /* TableViewBottomRefreshControl */,
+				9FC41A071F2B4E7100A5A595 /* TableViewBottomRefreshControlTests */,
+				9FC41A121F2B4E7100A5A595 /* TableViewBottomRefreshControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FC419ED1F2B4E7100A5A595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC41A021F2B4E7100A5A595 /* LaunchScreen.storyboard in Resources */,
+				9FC419FF1F2B4E7100A5A595 /* Assets.xcassets in Resources */,
+				9FC419FD1F2B4E7100A5A595 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC41A061F2B4E7100A5A595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC41A111F2B4E7100A5A595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FC419EB1F2B4E7100A5A595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC419FA1F2B4E7100A5A595 /* ViewController.m in Sources */,
+				9FC41A2E1F2B512A00A5A595 /* TempTableViewCell.m in Sources */,
+				9FC419F71F2B4E7100A5A595 /* AppDelegate.m in Sources */,
+				9FC41A2B1F2B4F5600A5A595 /* UIScrollView+BottomRefreshControl.m in Sources */,
+				9FC419F41F2B4E7100A5A595 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC41A041F2B4E7100A5A595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC41A0D1F2B4E7100A5A595 /* TableViewBottomRefreshControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC41A0F1F2B4E7100A5A595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC41A181F2B4E7100A5A595 /* TableViewBottomRefreshControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FC41A0A1F2B4E7100A5A595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FC419EE1F2B4E7100A5A595 /* TableViewBottomRefreshControl */;
+			targetProxy = 9FC41A091F2B4E7100A5A595 /* PBXContainerItemProxy */;
+		};
+		9FC41A151F2B4E7100A5A595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FC419EE1F2B4E7100A5A595 /* TableViewBottomRefreshControl */;
+			targetProxy = 9FC41A141F2B4E7100A5A595 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FC419FB1F2B4E7100A5A595 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FC419FC1F2B4E7100A5A595 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FC41A001F2B4E7100A5A595 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FC41A011F2B4E7100A5A595 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FC41A1A1F2B4E7100A5A595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FC41A1B1F2B4E7100A5A595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FC41A1D1F2B4E7100A5A595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 228777C638;
+				INFOPLIST_FILE = TableViewBottomRefreshControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteorangesoftware.TableViewBottomRefreshControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FC41A1E1F2B4E7100A5A595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 228777C638;
+				INFOPLIST_FILE = TableViewBottomRefreshControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteorangesoftware.TableViewBottomRefreshControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9FC41A201F2B4E7100A5A595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 228777C638;
+				INFOPLIST_FILE = TableViewBottomRefreshControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteorangesoftware.TableViewBottomRefreshControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewBottomRefreshControl.app/TableViewBottomRefreshControl";
+			};
+			name = Debug;
+		};
+		9FC41A211F2B4E7100A5A595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 228777C638;
+				INFOPLIST_FILE = TableViewBottomRefreshControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteorangesoftware.TableViewBottomRefreshControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewBottomRefreshControl.app/TableViewBottomRefreshControl";
+			};
+			name = Release;
+		};
+		9FC41A231F2B4E7100A5A595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 228777C638;
+				INFOPLIST_FILE = TableViewBottomRefreshControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteorangesoftware.TableViewBottomRefreshControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TableViewBottomRefreshControl;
+			};
+			name = Debug;
+		};
+		9FC41A241F2B4E7100A5A595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 228777C638;
+				INFOPLIST_FILE = TableViewBottomRefreshControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteorangesoftware.TableViewBottomRefreshControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TableViewBottomRefreshControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FC419EA1F2B4E7100A5A595 /* Build configuration list for PBXProject "TableViewBottomRefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC41A1A1F2B4E7100A5A595 /* Debug */,
+				9FC41A1B1F2B4E7100A5A595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC41A1C1F2B4E7100A5A595 /* Build configuration list for PBXNativeTarget "TableViewBottomRefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC41A1D1F2B4E7100A5A595 /* Debug */,
+				9FC41A1E1F2B4E7100A5A595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FC41A1F1F2B4E7100A5A595 /* Build configuration list for PBXNativeTarget "TableViewBottomRefreshControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC41A201F2B4E7100A5A595 /* Debug */,
+				9FC41A211F2B4E7100A5A595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FC41A221F2B4E7100A5A595 /* Build configuration list for PBXNativeTarget "TableViewBottomRefreshControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC41A231F2B4E7100A5A595 /* Debug */,
+				9FC41A241F2B4E7100A5A595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FC419E71F2B4E7100A5A595 /* Project object */;
+}
